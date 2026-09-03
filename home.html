@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body class="max-w-lg mx-auto bg-[#f4f5f7]">
+    <!-- class="bg-[#f4f5f7]" -->
+    <!-- nav section -->
+    <section class="bg-white">
+        <div>
+            <div class="header min-h-[60px] flex justify-between items-center border-b-1 border-gray-400 p-3">
+                <div class="flex justify-between gap-2">
+                    <img src="/assets/Group.png" class="h-[50px]" alt="">
+                    <div class="gap-2">
+                        <h1 class="font-bold">$<span>45000</span></h1>
+                        <p>Available Balance</p>
+                    </div>
+                </div>
+                <div><button class="btn text-gray-700"><i class="fa-solid fa-right-from-bracket rotate-180"></i>Log
+                        Out</button>
+
+                </div>
+            </div>
+        </div>
+        <div class="p-5">
+            <h1 class="text-2xl font-bold">🔥 Welcome to Payooo!</h1>
+            <p class="text-gray-600">Enjoy easy and convenient financial services with us. <br> Cashout charge is low
+                and </p>
+        </div>
+    </section>
+
+    <!-- items section  -->
+
+    <section class="bg-white rounded-b-xl">
+        <div class=" min-h-[200px] grid grid-cols-3 gap-3 p-3 max-w-lg mx-auto">
+            <div class="border-2 border-gray-300 rounded-lg text-center flex flex-col justify-center items-center">
+                <img src="/assets/wallet1.png" class="mx-auto" alt="">
+                <h2>Add Money</h2>
+            </div>
+            <div class="border-2 border-gray-300 rounded-lg text-center flex flex-col justify-center items-center">
+                <img src="/assets/send1.png" class="mx-auto" alt="">
+                <h2>Send Money</h2>
+            </div>
+            <div class="border-2 border-gray-300 rounded-lg text-center flex flex-col justify-center items-center">
+                <img src="/assets/money1.png" class="mx-auto" alt="">
+                <h2>Transfer Money</h2>
+            </div>
+            <div class="border-2 border-gray-300 rounded-lg text-center flex flex-col justify-center items-center">
+                <img src="/assets/bonus1.png" class="mx-auto" alt="">
+                <h2>Get Bonus</h2>
+            </div>
+            <div class="border-2 border-gray-300 rounded-lg text-center flex flex-col justify-center items-center">
+                <img src="/assets/purse1.png" class="mx-auto" alt="">
+                <h2>Bills</h2>
+            </div>
+            <div class="border-2 border-gray-300 rounded-lg text-center flex flex-col justify-center items-center">
+                <img src="/assets/transaction1.png" class="mx-auto" alt="">
+                <h2>Transactions</h2>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- form here  -->
+    <section class="formm-section p-3 mt-[15px]">
+        <div class="form-title flex justify-between items-center">
+            <h1 class="font-bold">Add Money</h1>
+            <button class="btn btn-ghost">View All</button>
+        </div>
+        <div class="form  rounded-xl  bg-white p-3 font-semibold">
+            <form action="" >
+                <div class="">
+                  <legend class="fieldset-legend font-semibold text-[15px]">Select a Bank</legend>
+                    <select class="select  bg-slate-100 border-0 w-full rounded-3xl  h-[40px]">
+                        <option disabled selected>Select a bank</option>
+                        <option>ABC bank</option>
+                        <option>Trust Bank</option>
+                        <option>City Bank</option>
+                </div>
+
+                </select>
+        </div>
+        
+            
+        <div class=""> <fieldset class="fieldset">
+                <legend class="fieldset-legend font-semibold text-[15px]">Bank Account Number</legend>
+                <input type="text" class="input rounded-2xl border-0 bg-slate-100 w-full " id="" placeholder="Enter 11 digit account number" />
+
+            </fieldset></div>
+        <div class=""><fieldset class="fieldset">
+                <legend class="fieldset-legend font-semibold text-[15px]">Amount to Add</legend>
+                <input type="text" class="input rounded-2xl border-0 bg-slate-100 w-full " id="" placeholder="Add Amount to withdraw" />
+
+            </fieldset></div>
+        <div class=""><fieldset class="fieldset">
+                <legend class="fieldset-legend font-semibold text-[15px]">Pin Number</legend>
+                <input type="text" class="input rounded-2xl border-0 bg-slate-100 w-full " id="" placeholder="Enter 4 digit pin number" />
+
+            </fieldset></div>
+            <br>
+             <button type="button" class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl w-full bg-blue-500 text-white  font-bold rounded-2xl h-[40px] text-[15px]" id="addMoneyBtn" >Add Money</button>
+
+        </form>
+        </div>
+    </section>
+
+</body>
+
+</html>
