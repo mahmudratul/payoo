@@ -13,3 +13,7 @@ document.getElementById("loginBtn").addEventListener("click", function(event) {
         alert("Invalid Mobile Number or Pin");
     }
 })
+
+//git remote add origin https://github.com/mahmudratul/payoo.git
+// git branch -M main
+// git push -u origin main
