@@ -28,6 +28,44 @@ document.getElementById("addMoneyBtn").addEventListener("click", function(event)
     }
 })
 //  toggling feauture 
-document.getElementById("addMoneyBtn").addEventListener("click", function(event) {
-    event.preventDefault();
+document.getElementById("add-money").addEventListener("click", function(e) {
+    
+    document.getElementById("addMoneySection").style.display = "block";
+    document.getElementById("cashOutSection").style.display = "none";
+    document.getElementById("transferMoneySection").style.display = "none";
+    document.getElementById("getBonusSection").style.display = "none";
+    document.getElementById("billsSection").style.display = "none";
+    document.getElementById("transactionsSection").style.display = "none";
   })
+  document.getElementById("cash-out").addEventListener("click", function(e) {
+    document.getElementById("addMoneySection").style.display = "none";
+    document.getElementById("cashOutSection").style.display = "block";
+        document.getElementById("transferMoneySection").style.display = "none";
+    document.getElementById("getBonusSection").style.display = "none";
+    document.getElementById("billsSection").style.display = "none";
+    document.getElementById("transactionsSection").style.display = "none";
+    })
+    document.getElementById("transfer-money").addEventListener("click", function(e) {
+        document.getElementById("addMoneySection").style.display = "none";
+        document.getElementById("cashOutSection").style.display = "none";
+        document.getElementById("transferMoneySection").style.display = "block";
+        document.getElementById("getBonusSection").style.display = "none";
+        document.getElementById("billsSection").style.display = "none";
+        document.getElementById("transactionsSection").style.display = "none";
+    });
+    document.getElementById("get-bonus").addEventListener("click", function(e) {
+        document.getElementById("addMoneySection").style.display = "none";
+        document.getElementById("cashOutSection").style.display = "none"; 
+        document.getElementById("transferMoneySection").style.display = "none";
+        document.getElementById("getBonusSection").style.display = "block";
+        document.getElementById("billsSection").style.display = "none";
+        document.getElementById("transactionsSection").style.display = "none";
+    });
+    document.getElementById("pay-bill").addEventListener("click", function(e) {
+        document.getElementById("addMoneySection").style.display = "none";
+        document.getElementById("cashOutSection").style.display = "none";
+        document.getElementById("transferMoneySection").style.display = "none";
+        document.getElementById("getBonusSection").style.display = "none";
+        document.getElementById("billsSection").style.display = "block";
+        document.getElementById("transactionsSection").style.display = "none";
+    });
